@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "name": "login",
+      "type": "com.inte.framework.config.LoginProperties",
+      "sourceType": "com.inte.framework.config.LoginProperties"
+    },
+    {
+      "name": "tsdb.inte.plugin",
+      "type": "com.inte.framework.autoconfigure.plugin.PluginProperties",
+      "sourceType": "com.inte.framework.autoconfigure.plugin.PluginProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "login.filter-exclude-url",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.inte.framework.config.LoginProperties"
+    },
+    {
+      "name": "login.filter-include-url",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.inte.framework.config.LoginProperties"
+    },
+    {
+      "name": "login.interceptor-exclude-url",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.inte.framework.config.LoginProperties"
+    },
+    {
+      "name": "login.interceptor-include-url",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.inte.framework.config.LoginProperties"
+    },
+    {
+      "name": "tsdb.inte.plugin.dir",
+      "type": "java.lang.String",
+      "sourceType": "com.inte.framework.autoconfigure.plugin.PluginProperties",
+      "defaultValue": "plugin"
+    }
+  ],
+  "hints": []
+}

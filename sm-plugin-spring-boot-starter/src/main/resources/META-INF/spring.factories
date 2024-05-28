@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+ com.inte.framework.autoconfigure.plugin.PluginAutoConfiguration
+
